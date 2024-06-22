@@ -18,6 +18,5 @@ public class ActivityLab2Bai3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lab2_bai3);
-
     }
 }
