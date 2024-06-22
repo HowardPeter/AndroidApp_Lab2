@@ -42,9 +42,8 @@ public class MainActivity extends AppCompatActivity {
     void addEvent()
     {
         moveToActivity(btnBai12, ActivityLab2Bai1Bai2.class);
-//        setButtonClickListener(btnBai2, ActivityLab2Bai2.class);
-//        setButtonClickListener(btnBai3, ActivityLab2Bai3.class);
-//        setButtonClickListener(btnBai4, ActivityLab2Bai4.class);
-//        setButtonClickListener(btnBai5, ActivityLab2Bai5.class);
+        moveToActivity(btnBai3, ActivityLab2Bai3.class);
+//        moveToActivity(btnBai4, ActivityLab2Bai3.class);
+//        moveToActivity(btnBai5, ActivityLab2Bai3.class);
     }
 }

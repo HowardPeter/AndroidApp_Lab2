@@ -12,6 +12,9 @@
         android:theme="@style/Theme.AndroidLab2Exercises"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityLab2Bai3"
+            android:exported="false" />
+        <activity
             android:name=".ActivityLab2Bai1Bai2"
             android:exported="false" />
         <activity

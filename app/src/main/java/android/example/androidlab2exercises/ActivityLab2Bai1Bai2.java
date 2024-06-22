@@ -24,5 +24,4 @@ public class ActivityLab2Bai1Bai2 extends AppCompatActivity {
         flagAdapter = new FlagAdapter(ActivityLab2Bai1Bai2.this, R.layout.custom_listview, arrayList);
         lvCountries.setAdapter(flagAdapter);
     }
-
 }
