@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnBai1"
+        android:layout_width="378dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Lab 2 - Bai 1" />
+
+    <Button
+        android:id="@+id/btnBai2"
+        android:layout_width="378dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Lab 2 - Bai 2" />
+
+    <Button
+        android:id="@+id/btnBai3"
+        android:layout_width="378dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Lab 2 - Bai 3" />
+
+    <Button
+        android:id="@+id/btnBai4"
+        android:layout_width="378dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Lab 2 - Bai 4" />
+
+    <Button
+        android:id="@+id/btnBai5"
+        android:layout_width="378dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Lab 2 - Bai 5" />
+
+</LinearLayout>
