@@ -14,4 +14,15 @@
     <string name="cmnd">CMND</string>
     <string name="h_t_n">Họ tên</string>
     <string name="th_ng_tin_c_nh_n">Thông tin cá nhân</string>
+    <string name="x">x</string>
+    <string name="danh_s_ch_nh_n_vi_n">Danh sách nhân viên:</string>
+    <string name="n">Nữ</string>
+    <string name="nh_p_nv">Nhập NV</string>
+    <string name="nam">Nam</string>
+    <string name="nh_p_t_n_nv">Nhập tên NV</string>
+    <string name="gi_i_t_nh">Giới tính:</string>
+    <string name="t_n_nv">Tên NV:</string>
+    <string name="nh_p_m_nv">Nhập mã NV</string>
+    <string name="qu_n_l_nh_n_vi_n">Quản lý nhân viên</string>
+    <string name="m_nv">Mã NV:</string>
 </resources>
