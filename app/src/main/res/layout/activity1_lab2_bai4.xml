@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/th_ng_tin_c_nh_n"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#FFD700"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/edtHoTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/h_t_n" />
+
+        <EditText
+            android:id="@+id/edtCMND"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cmnd" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textStyle="bold"
+        android:background="#1E90FF"
+        android:textColor="#D3A312"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/b_ng_c_p"/>
+
+    <RadioGroup
+        android:id="@+id/rbDegree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <RadioButton
+            android:id="@+id/rbTrungCap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trung_c_p" />
+
+        <RadioButton
+            android:id="@+id/rbCaoDang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cao_ng" />
+
+        <RadioButton
+            android:id="@+id/rbDaiHoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/i_h_c" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textStyle="bold"
+        android:background="#1E90FF"
+        android:textColor="#D3A312"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/s_th_ch"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <CheckBox
+            android:id="@+id/cbDocBao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/c_b_o" />
+
+        <CheckBox
+            android:id="@+id/cbDocSach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/c_s_ch" />
+
+        <CheckBox
+            android:id="@+id/cbCoding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/c_coding" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textStyle="bold"
+        android:background="#1E90FF"
+        android:textColor="#D3A312"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/th_ng_tin_b_sung"/>
+
+    <EditText
+        android:id="@+id/edtAdditionalInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:inputType="textMultiLine"
+        android:hint="@string/additional_information" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#FFD700"
+        android:text="@string/g_i_th_ng_tin"/>
+
+</LinearLayout>
