@@ -5,7 +5,7 @@ public class NhanVien {
     String maNV;
     String tenNV;
     Boolean gioiTinh;
-    Boolean isPicked;
+    Boolean isPicked = false;
     public String getMaNV() {
         return maNV;
     }

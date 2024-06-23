@@ -73,16 +73,16 @@ public class ActivityLab2Bai5 extends AppCompatActivity {
             }
         });
 
-        // incomplete
+        // uncompleted, error
 //        btnXoaNV.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
 //                for (NhanVien nv : arrayListNV) {
 //                    if(nv.getPicked()){
 //                        arrayListNV.remove(nv);
-//                        customAdapterNV.notifyDataSetChanged();
 //                    }
 //                }
+//                customAdapterNV.notifyDataSetChanged();
 //            }
 //        });
 

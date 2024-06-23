@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -46,7 +47,13 @@ public class CustomAdapterNV extends ArrayAdapter {
         tvNV.setText(nv.getMaNV() + " - " + nv.getTenNV());
 
 //        CheckBox cbXoa = (CheckBox) convertView.findViewById(R.id.cbXoaNV);
-//        nv.setPicked(cbXoa.isChecked());
+//        cbXoa.setChecked(nv.getPicked()); //Error: Attempt to invoke virtual method 'boolean java.lang.Boolean.booleanValue()' on a null object reference
+//        cbXoa.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+//            @Override
+//            public void onCheckedChanged(CompoundButton compoundButton, boolean isPicked) {
+//                nv.setPicked(isPicked);
+//            }
+//        });
 
         return convertView;
     }
